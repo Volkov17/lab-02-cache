@@ -80,3 +80,5 @@ investigation:                                       |  investigation:
 
 ⚠️ В отчет также необходимо добавить общий график с результатами всех исследований. ⚠️
 http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/direct.html
+
+http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/random.html
