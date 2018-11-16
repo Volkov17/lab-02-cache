@@ -1,1 +1,48 @@
-
+<!doctype html>
+<html>
+<body>
+<canvas id="myChart" width:100% height:100% ></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+       labels: [4096, 8192, 16384, 32768, 65536, 131072, 262144, 524288, 1048576],
+        datasets: [{
+            label: 'Direct',	
+	    fill: false ,
+            data: [{x: 4096,y: 41}, {x: 8192,y: 88}, {x: 16384,y: 69}, {x: 32768,y: 220}, {x: 65536,y: 456}, {x: 131072,y: 1028}, {x: 262144,y: 2311}, {x: 524288,y: 5144},
+	    {x: 1048576,y: 13883}],
+            backgroundColor: [
+                'rgba(19, 39, 171, 1)'
+            ],
+            borderColor: [
+                'rgba(19, 39, 171, 1)'
+            ],
+            borderWidth: 3
+        }]
+    },
+    options: {
+	responsive: true,
+	tooltips: {
+            mode: 'point'
+        },
+	layout: {
+            padding: {
+                left: 50,
+                right: 50,
+                top: 50,
+                bottom: 50
+            }
+	},
+	elements: {
+            line: {
+                tension: 0, // disables bezier curves
+            }
+        }
+    }
+});
+</script>
+</body>
+</html>
