@@ -79,6 +79,6 @@ investigation:                                       |  investigation:
 ```
 
 ⚠️ В отчет также необходимо добавить общий график с результатами всех исследований. ⚠️
-http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/direct.html
-http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/reverse.html
-http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/random.html
+[Direct](http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/direct.html)
+[Reverse](http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/reverse.html)
+[Random](http://htmlpreview.github.io/?https://github.com/Volkov17/lab-02-cache/blob/master/random.html)
